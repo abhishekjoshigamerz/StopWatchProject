@@ -20,16 +20,17 @@
                 <div class="watch-inner">
                   <div class="watch-inner-screen">
                     <div class="pause-and-start-container">
-                      <p class="pause">pause <span>II</span></p>
-                      <p class="start">start ▶</p>
+                      <p class="pause">pause
+                       <button class="watchPauseButton"> II </button></p>
+                      <p class="start">start <button class="watchStartButton"> ▶ </button></p>
                     </div>
                     <p class="timer">
                       <span id="minutes">00</span>:<span id="seconds">00</span><span id="milliseconds">00</span>
                     </p>
-                    <p class="stop">stop ■</p>
+                    <p class="stop">stop <button class="watchStopButton">■</button></p>
                   </div>
                 </div>
-                <div class="watch-bottom"></div>
+                
               </div>
              
         </div>
@@ -38,10 +39,9 @@
     </article>
     <!-- div for watch buttons  -->
     <article class="button--areas">
-        <div class="playButton"></div>
-        <div class="pauseButton">
-        </div>
-        <div class="stopButton"></div>
+      <button class="startTimer">Start</button>
+      <button class="pauseTimer">Pause</button>
+      <button class="stopTimer">Stop</button>
     </article>
 </body>
 </html>

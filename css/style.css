@@ -22,7 +22,7 @@ body{
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
     align-items: center;
-    height:90vh;
+    height:60vh;
 }
 
 .leftBand{
@@ -129,15 +129,35 @@ body{
     text-align: end;
     font-family: 'Orbitron', sans-serif;
     padding-right: 4px;
-
   }
+.button--areas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-  .button--areas{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-  }
+.startTimer{
+    margin-left:200px;
+    width: 120px;
+    height:40px;
+}
+.pauseTimer{
+    width: 120px;
+    height: 40px;
+}
+.stopTimer{
+    width: 120px;
+    height:40px;
+    margin-right:200px;
+}
+.watchStartButton,
+.watchPauseButton,
+.watchStopButton{
+    background-color: #B8BDB8;
+    border:0;
+}
+
+
   
 
   
