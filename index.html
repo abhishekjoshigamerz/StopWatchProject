@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h2 class="header--title">Stop Watch</h2>
-    </header>
+   <!-- Contains watch section here  -->
     <article class="watch--container">
         <div class="leftBand"></div>
         <div class="watch">
@@ -18,16 +16,14 @@
                     <p>STOP WATCH</p>
                 </div>
                 <div class="watch-inner">
-                  <div class="watch-inner-screen">
-                    <div class="pause-and-start-container">
-                      <p class="pause">pause
-                       <button class="watchPauseButton"> II </button></p>
-                      <p class="start">start <button class="watchStartButton"> ▶ </button></p>
-                    </div>
-                    <p class="timer">
-                    <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span><span id="milliseconds">00</span>
+                  <div class="watch-inner-screen ">
+                    <p class="header--timer">
+                      <span> H  </span>:<span>  M  </span>  :  <span> S </span>  :  <span>m</span>
                     </p>
-                    <p class="stop">stop <button class="watchStopButton">■</button></p>
+                    <p class="timer">
+                    <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+                    </p>
+                    
                   </div>
                 </div>
                 
@@ -38,10 +34,10 @@
        
     </article>
     <!-- div for watch buttons  -->
-    <article class="button--areas">
-      <button class="startTimer">Start</button>
-      <button class="pauseTimer">Pause</button>
-      <button class="stopTimer">Stop</button>
+    <article class="button--areas ">
+      <button class="startTimer ">START</button>
+      <button class="pauseTimer ">STOP</button>
+      <button class="stopTimer ">RESET</button>
     </article>
 
     <script src="scripts/timer.js" ></script>

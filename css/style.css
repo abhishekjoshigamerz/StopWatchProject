@@ -5,8 +5,7 @@
 }
 
 body{
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,18,33,0.21332282913165268) 69%, rgba(0,212,255,1) 95%); */
+    
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.8rem;
 }
@@ -111,15 +110,22 @@ body{
     margin-top:10px;
 }
 
-.timer {
+.header--timer{
     color: #272626;
     font-size: 25px;
+    font-weight: 700;
+    margin-left:15px;
+}
+
+.timer {
+    color: #272626;
+    font-size: 35px;
     font-weight: 700;
 }
 
 
 .timer #milliseconds {
-    width: 35px;
+    width: 55px;
     font-size: 18px;
 }
 
